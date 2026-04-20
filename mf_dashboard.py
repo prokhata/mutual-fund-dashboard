@@ -6,7 +6,7 @@ import streamlit as st
 # ==============================
 # Load Data (AUTO delimiter detect)
 # ==============================
-file_path = r"D:\adv itt\mutualfund\20apr26screener.csv"
+file_path = "20apr26screener.csv"
 df = pd.read_csv(file_path, sep=None, engine='python')
 
 # ==============================
